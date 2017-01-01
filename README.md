@@ -9,9 +9,9 @@ Please see demo.
 
 *Example : *
 
-![alt text](https://raw.githubusercontent.com/sandipkaranjekar/rbac/master/images/user_form.png "schemaGallery")
+![alt text](https://github.com/sandipkaranjekar/schemaGallery/blob/master/demo/img/schema_gallery.png "schemaGallery")
 
-![alt text](https://raw.githubusercontent.com/sandipkaranjekar/rbac/master/images/user_form.png "schemaGalleryClickView")
+![alt text](https://github.com/sandipkaranjekar/schemaGallery/blob/master/demo/img/schema_gallery_view1.png "schemaGalleryClickView")
 
 ## License
 
