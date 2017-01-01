@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Schema Gallery</title>
+<link href="css/schema_gallery.css" rel="stylesheet">
+<script type='text/javascript' src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/schemaGallery.0.1.0.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#gallery").schemaGallery({
+			slideAnimation: 1000,
+      boxAnimation: 500,
+      height: 520,
+      schemaItems: [
+      	{
+      		backgroundImageUrl: 'img/1.jpg',
+      		bottomText: "Nature",
+      		infoBoxTitle: "Nature",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	},
+      	{
+      		backgroundImageUrl: 'img/3.jpg',
+      		bottomText: "LifeStyle",
+      		infoBoxTitle: "LifeStyle",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	},
+      	{
+      		backgroundImageUrl: 'img/4.jpg',
+      		bottomText: "Passion",
+      		infoBoxTitle: "Passion",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	},
+      	{
+      		backgroundImageUrl: 'img/5.jpg',
+      		bottomText: "Views",
+      		infoBoxTitle: "Views",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	},
+      	{
+      		backgroundImageUrl: 'img/6.jpg',
+      		bottomText: "Beauty",
+      		infoBoxTitle: "Beauty",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	},
+      	{
+      		backgroundImageUrl: 'img/7.jpg',
+      		bottomText: "Sea",
+      		infoBoxTitle: "Sea",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	},
+      	{
+      		backgroundImageUrl: 'img/8.jpg',
+      		bottomText: "Sunset",
+      		infoBoxTitle: "Sunset",
+      		infoBoxDescription: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+      	}
+      ]
+		})
+	});
+</script>
+</head>
+<body>
+	<div id="gallery"></div>
+</body>
+</html>
